@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="startScreen">
+        <h2 class="title">Что мешает вам получать больше денег и как пробить финансовый потолок?</h2>
+        <p class="discr">Пройдите тест по результатом которого вы узнайте свои сильные и слабые стороны. А так же получите инструменты которые помогут сойти с мертвой точки, независимо от вашего заработка</p>
+        <p class="smallDiscr">Положите старт выходу из финансовой западни</p>
+        <button class="btn_start">Начать тест</button>
+    </div>
+
+    <div class="questScreen" id="slider">
+        <h1>Как пробить свой финансовый потолок?</h1>
+        <div class="sliderContainer">
+            <div class="slider_content">
+                <div class="slide_item slide_item-active">
+                    <div class="questTitle">Ваша финансовая позиция на текущий момент? Определите свою роль по следующий критериям:
+                    </div>
+                    <div class="questBody">
+                        <p class="quest">
+                            <input type="radio" id="q11" class="questInput" name="quest1" value="a">
+                            <label for="q11"><b>Тонущий</b> — кредиты, ипотека, долги, которые увеличились</label>
+                        </p>
+                        <p class="quest">
+                            <input type="radio" id="q12" class="questInput" name="quest1" value="b">
+                            <label for="q12"><b>Спящий</b> — долгов нет, но к&nbsp;концу месяца остаюсь на&nbsp;нуле</label>
+                        </p>
+                        <p class="quest">
+                            <input type="radio" id="q13" class="questInput" name="quest1" value="c">
+                            <label for="q13"><b>Вялый</b> — нет долгов, но&nbsp;нет полноценной жизни и&nbsp;не&nbsp;делаю накоплений</label>
+                        </p>
+                        <p class="quest">
+                            <input type="radio" id="q14" class="questInput" name="quest1" value="d">
+                            <label for="q14"><b>Идущий</b> — нет долгов, живу полноценной жизнью, нет накоплений</label>
+                        </p>
+                        <p class="quest">
+                            <input type="radio" id="q15" class="questInput" name="quest1" value="e">
+                            <label for="q15"><b>Летящий</b> — нет долгов, живу полноценной жизнью, есть накопления</label>
+                        </p>
+                    </div>
+                </div>
+                <div class="slide_item">
+                    <div class="questTitle">Накопление капитала: как&nbsp;вы этим занимаетесь?
+                    </div>
+                    <div class="questBody">
+                            <p class="quest">
+                                <input type="radio" id="q21" class="questInput" name="quest1" value="a">
+                                <label for="q21"><b>Протест</b> — Вообще никак. И&nbsp;не вижу смысла в&nbsp;том чтобы копить</label>
+                            </p>
+                            <p class="quest">
+                                <input type="radio" id="q22" class="questInput" name="quest1" value="b">
+                                <label for="q22"><b>Пассивность</b> — Вижу смысл в&nbsp;том чтобы копить, но не&nbsp;умею и&nbsp;не позволяют обстоятельства</label>
+                            </p>
+                            <p class="quest">
+                                <input type="radio" id="q23" class="questInput" name="quest1" value="c">
+                                <label for="q23"><b>Стартовая активность</b> — Прямо сейчас начинаю заниматься этим вопросом</label>
+                            </p>
+                            <p class="quest">
+                                <input type="radio" id="q24" class="questInput" name="quest1" value="d">
+                                <label for="q24"><b>Активность</b> — Занимаюсь этим вопросом, и&nbsp;уже удалось отложить небольшую сумму</label>
+                            </p>
+                            <p class="quest">
+                                <input type="radio" id="q25" class="questInput" name="quest1" value="e">
+                                <label for="q25"><b>Стабильность</b> — Уже долго и&nbsp;стабильно коплю</label>
+                            </p>
+                        </div>
+                </div>
+                <div class="slide_item">
+                    <div class="questTitle">Ваше счастливое Будущее. У&nbsp;вас есть Большая Стратегия (план действий на&nbsp;30 и&nbsp;более лет вперед)?
+                    </div>
+                    <div class="questBody">
+                            <p class="quest">
+                                <input type="radio" id="q31" class="questInput" name="quest1" value="a">
+                                <label for="q31">Нет, я живу одним днём</label>
+                            </p>
+                            <p class="quest">
+                                <input type="radio" id="q32" class="questInput" name="quest1" value="b">
+                                <label for="q32">Понимаю что нужна, но как ее создать не&nbsp;понимаю</label>
+                            </p>
+                            <p class="quest">
+                                <input type="radio" id="q33" class="questInput" name="quest1" value="c">
+                                <label for="q33">Создаю, но пока в&nbsp;общих чертах и&nbsp;смутно</label>
+                            </p>
+                            <p class="quest">
+                                <input type="radio" id="q34" class="questInput" name="quest1" value="d">
+                                <label for="q34">Уже создана, но в&nbsp;общих чертах и&nbsp;нуждается в&nbsp;дополнении</label>
+                            </p>
+                            <p class="quest">
+                                <input type="radio" id="q35" class="questInput" name="quest1" value="e">
+                                <label for="q35">Не только Большая Стратегия, но и&nbsp;четко расписанный план по&nbsp;всем пунктам</label>
+                            </p>
+                        </div>
+                </div>
+                <div class="slide_item">
+                    <div class="questTitle">Ваше благосостояние. В каком состоянии ваша финансовая цель на&nbsp;30 лет вперед?
+                    </div>
+                    <div class="questBody">
+                            <p class="quest">
+                                <input type="radio" id="q41" class="questInput" name="quest1" value="a">
+                                <label for="q41">Её вообще нет&nbsp;и&nbsp;не вижу смысла&nbsp;ее создавать</label>
+                            </p>
+                            <p class="quest">
+                                <input type="radio" id="q42" class="questInput" name="quest1" value="b">
+                                <label for="q42">Осознаю&nbsp;ее необходимость&nbsp;но&nbsp;не знаю как&nbsp;ее поставить правильно так, чтобы реально&nbsp;ее достичь</label>
+                            </p>
+                            <p class="quest">
+                                <input type="radio" id="q43" class="questInput" name="quest1" value="c">
+                                <label for="q43">Цель уже&nbsp;в режиме создания</label>
+                            </p>
+                            <p class="quest">
+                                <input type="radio" id="q44" class="questInput" name="quest1" value="d">
+                                <label for="q44">Цель создана,&nbsp;но&nbsp;к реализации еще&nbsp;не приступил/приступила</label>
+                            </p>
+                            <p class="quest">
+                                <input type="radio" id="q45" class="questInput" name="quest1" value="e">
+                                <label for="q45">Цель создана&nbsp;и реализуется</label>
+                            </p>
+                        </div>
+                </div>
+                <div class="slide_item">
+                    <div class="questTitle">Ваша безопасность. Формируете ли вы финансовую подушку безопасности?
+                    </div>
+                    <div class="questBody">
+                            <p class="quest">
+                                <input type="radio" id="q51" class="questInput" name="quest5" value="a">
+                                <label for="q51">Не понимаю, зачем она&nbsp;мне</label>
+                            </p>
+                            <p class="quest">
+                                <input type="radio" id="q52" class="questInput" name="quest5" value="b">
+                                <label for="q52">Знаю, что нужна, но нет&nbsp;возможности ее&nbsp;создать</label>
+                            </p>
+                            <p class="quest">
+                                <input type="radio" id="q53" class="questInput" name="quest5" value="c">
+                                <label for="q53">Всё более чётко осознаю, насколько это необходимо и&nbsp;готов/готова приступить к&nbsp;созданию</label>
+                            </p>
+                            <p class="quest">
+                                <input type="radio" id="q54" class="questInput" name="quest5" value="d">
+                                <label for="q54">Формирую с&nbsp;недавнего времени</label>
+                            </p>
+                            <p class="quest">
+                                <input type="radio" id="q55" class="questInput" name="quest5" value="e">
+                                <label for="q55">Формирую стабильно</label>
+                            </p>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="btnWrap">
+            <button class="btn prev">Назад</button>
+            <button class="btn next">Далее</button>
+            <button class="btn result d-none">Узнать результат</button>
+        </div>
+
+</div>
+
+    <div id="result_A" class="resultScreen">
+        <h2 class="resTitle">Вы “в оппозиции”</h2>
+        <p class="resText">Вы идете против правил денег. Вам нужны миллионы с неба, но вы совершенно не планируете обучаться этому. Вы упорствуете в своей позиции и отрицаете необходимость дисциплины. Ваш основной приоритет: текущие удовольствия.
+        <br>
+        Вы живете одним днем, удовлетворяете все “хотелки” и пускаете все на самотек. Если у вас случаются финансовые проблемы, вы обвиняете государство и окружающих.
+        <br>
+        Но не все так плохо. У вас большие амбиции, а значит, и хороший запас энергии, и хороший потенциал в увеличении дохода и в поисках пассивных источников, поэтому если вы направите его в нужное русло, у вас всё обязательно получится!
+        </p>
+        <ul class="resDiscr">Вам немедленно рекомендуется:
+            <li class="resLi">осознать необходимость изучения инвестиций и финансового управления</li>
+            <li class="resLi">взять под контроль свои финансы, в особенности расходы</li>
+            <li class="resLi">проявлять больше дисциплины и рациональности</li>
+            <li class="resLi">осознать необходимость долгосрочного планирования</li>
+            <li class="resLi">начать обучение азам и основам инвестирования и финансового управления</li>
+        </ul>
+    </div>
+
+    <div id="result_B" class="resultScreen">
+        <h2 class="resTitle">Вы “в болоте проблем”</h2>
+        <p class="resText">Деньги очень многое решают, но вы ни на что не влияете. У вас хроническая нехватка средств на какие-то текущие расходы и важные бытовые вопросы. Вы не испытываете стабильности и не берете на себя ответственность за управление финансами. 
+        <br>
+        Но не все так плохо. В вас есть реализм, рациональность, и осторожность, направив которую в нужное русло вы создадите себе капитал в низкорисковых условиях. Используйте свое умение анализировать правильно и всё обязательно получится!
+        </p>
+        <ul class="resDiscr">Вам рекомендуется как можно скорее:
+            <li class="resLi">психологически проработать установки и убеждения относительно денег</li>
+            <li class="resLi">начать изучать систему инвестирования, экономику, финансовое управление</li>
+            <li class="resLi">составить большую Стратегию и финансовый план для обретения душевной стабильности</li>
+            <li class="resLi">начать общаться с единомышленниками для формирования уверенности в себе и поиска новых возможностей</li>
+        </ul>
+    </div>
+
+    <div id="result_C" class="resultScreen">
+        <h2 class="resTitle">Вы “на перепутье”</h2>
+        <p class="resText">Вы остро осознали, что можете все изменить. Но у вас ещё так много вопросов и “белых пятен” на карте. От этого и с деньгами “то пусто, то густо”.
+        <br>
+        Вы гуглите, ищете информацию, но в единую картину она не складывается. Вы увязли в теории и заблудились в информации, вам не хватает ни систематизации знаний, ни конкретных действий. 
+        <br>
+        Не всё так плохо. Вы находитесь в замечательном состоянии, когда остро осознали, что пора выходить из зоны комфорта. И осталось преобразить это в действия!
+        </p>
+        <ul class="resDiscr">Вот, что мы рекомендуем сделать:
+            <li class="resLi">психологически проработать установки и убеждения относительно денег</li>
+            <li class="resLi">систематизировать ваши финансовые знания с помощью качественного и серьезного обучения</li>
+            <li class="resLi">начать общаться с единомышленниками для закрепления новых знаний и перехода от слов к делу</li>
+            <li class="resLi">начать предпринимать первые конкретные шаги в реализации ваших целей</li>
+        </ul>
+    </div>
+
+    <div id="result_D" class="resultScreen">
+        <h2 class="resTitle">Вы на правильном пути</h2>
+        <p class="resText">Ваше финансовое становление идет благополучно. Да, есть еще над чем работать, но Вы управляете финансами и ощущаете уверенность в себе. У вас есть четкие стратегии и цели и отличный потенциал.
+        <br>
+        И Вы желаете это сохранить и приумножить.
+        <br>
+        Будьте осторожны. На этом этапе у вас есть риск ввязаться в высокорискованные инвестиции из-за повышенной уверенности в себе и ваших успехов. Но вы легко избежите этого риска если будете двигаться в выбранном направлении, избегая искушений.
+        <br>
+        Также Вам необходимо более серьезно думать про накопления и увеличение капитала.
+        </p>
+        <ul class="resDiscr">Ваши задачи:
+            <li class="resLi">психологически масштабировать сознание и заниматься саморазвитием для усиления дисциплины, воли, системного мышления, покорения новых финансовых вершин</li>
+            <li class="resLi">осваивать новые инструменты и возможности</li>
+            <li class="resLi">закрепить и улучшить свой результат</li>
+            <li class="resLi">держаться в одном русле и следовать плану, не терять разумности и осторожности и дисциплины</li>
+        </ul>
+    </div>
+
+    <div id="result_E" class="resultScreen">
+        <h2 class="resTitle">Вы финансовый гений и стратег</h2>
+        <p class="resText">Поздравляем! Вы в том редком числе инвесторов, которые делают все правильно и могут вести остальных. Ваша миссия: идти тем же путем и вдохновлять своими успехами. Такие, как вы, люди, способны дать другим надежду, что все возможно изменить. Мы будем очень рады видеть вас в нашем сообществе, как одного из ведущих участников. Спасибо, что вы выбрали путь финансового благополучия!
+        </p>        
+    </div>
+
+    <script src="./js/anime.js"></script>
+    <script src="./js/script.js"></script>
+
+    <!-- <script>
+        anime({
+            targets: '.startScreen',
+            duration: 2000,
+            translateY: 400,
+
+        });
+    </script> -->
+</body>
+
+</html>
